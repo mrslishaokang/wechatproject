@@ -1,0 +1,30 @@
+<view class="navbar"> 
+ <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text> 
+</view> 
+  
+<!--IT技术--> 
+<view hidden="{{currentTab!==0}}"> 
+ <image class="xing" src="/x.png"></image>
+  <view class="C">C语言学习</view> 
+   <image class="z" src="/z.png"></image>
+   <progress class="percent" percent="18" show-info stroke-width='3' active />
+      <view class="D">当前进度：</view> 
+      <view class="E">运算符重载、自定义String类</view> 
+      <image class="xing1" src="/x.png"></image>
+      <view class="S">数据结构与算法</view> 
+      <image class="z1" src="/z.png"></image>
+       <progress class="percent1" percent="53" show-info stroke-width='3' active />
+    <view class="D1">当前进度：</view> 
+    <view class="E1">栈与队列</view> 
+   
+</view> 
+  
+<!--金融--> 
+<view hidden="{{currentTab!==1}}"> 
+ tab_02 
+</view> 
+  
+<!--设计--> 
+<view hidden="{{currentTab!==2}}"> 
+ tab_03 
+</view>

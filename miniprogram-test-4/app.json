@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/new/new",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#009788",
+    "navigationBarTitleText": "手机号登录",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/5.png",
+        "iconPath": "/8.png",
+        "pagePath": "pages/new/new",
+        "text": "广场"
+      },
+      {
+        "selectedIconPath": "/6.png",
+        "iconPath": "/9.png",
+        "pagePath": "pages/logs/logs",
+        "text": "领域"
+      },
+      {
+        "selectedIconPath": "/7.png",
+        "iconPath": "/10.png",
+        "pagePath": "pages/logs/logs",
+        "text": "论坛"
+      },
+      {
+        "selectedIconPath": "/4.png",
+        "iconPath": "/11.png",
+        "pagePath": "pages/logs/logs",
+        "text": "主页"
+      }
+    ]
+  }
+}
+
+

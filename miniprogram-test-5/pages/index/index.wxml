@@ -1,0 +1,44 @@
+<view class="navbar"> 
+ <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text> 
+</view> 
+  
+<!--测试--> 
+
+<view class="line"></view> 
+<view hidden="{{currentTab!==0}}"> 
+<view class="F">C语言学习</view>
+<progress class="percent" percent="58" show-info stroke-width='4' active />
+<view class="F1">当前路径：</view>
+<view class="F2">中国大学MOOC</view>
+<view class="F3">更换>></view>
+<view class="F4">当前进度：</view>
+<view class="F5">运算符重载、自定义String类</view>
+<view class="F6">入门测试</view>
+<view class="F7">75分</view>
+<image class="Y" src="/Y.png"></image>
+<view class="line1"></view>
+<view class="F8">基础测试</view>
+<view class="F9">未完成</view>
+<view class="F10">已完成</view>
+<view class="line2"></view>
+</view> 
+
+  
+<!--路径--> 
+<view hidden="{{currentTab!==1}}"> 
+<navigator url="../mulu/mulu">
+<image class="m1" src="/m1.png"></image>
+<image class="Q" src="/Q.png"></image>
+<view class="D">C语言-程序设计</view>
+<view class="D1">来源：中国大学MOOC</view> 
+<image class="m2" src="/m2.png"></image>
+<image class="Q1" src="/Q.png"></image>
+<image class="X" src="/X.png"></image>
+<image class="X1" src="/X.png"></image>
+<image class="X2" src="/X.png"></image>
+<image class="X3" src="/X3.png"></image>
+<image class="X4" src="/X3.png"></image>
+<view class="E">C语言-判断与循环</view>
+<view class="E1">来源：中国大学MOOC</view> 
+</navigator>
+</view>

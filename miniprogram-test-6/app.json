@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/userInfo"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "学习方案",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/5.png",
+        "iconPath": "/5.png",
+        "pagePath": "pages/index/index",
+        "text": "广场"
+      },
+      {
+        "selectedIconPath": "/6.png",
+        "iconPath": "/6.png",
+        "pagePath": "pages/logs/logs",
+        "text": "领域"
+      },
+      {
+        "selectedIconPath": "/7.png",
+        "iconPath": "/7.png",
+        "pagePath": "pages/user/userInfo",
+        "text": "论坛"
+      },
+      {
+        "selectedIconPath": "/4.png",
+        "iconPath":"/4.png",
+        "pagePath": "pages/user/userInfo",
+        "text": "主页"
+      }
+    ]
+  }
+}
